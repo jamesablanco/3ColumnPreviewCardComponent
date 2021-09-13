@@ -1,18 +1,55 @@
 body {
-background-color: lightgray;
+background-color:  hsl(0, 0%, 95%);
+color: white;
+font-size: 15px;
 }
 
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    padding: 48px;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 48px;
+}
+
+.icons {
+    padding: 48px;
+}
+
+button {
+    
+}
 .sedans {
     background-color:#E28625 ;
-    display: grid;
+    border-radius:8px 0px 0px 8px;
+    padding: 48px;
 }
 
 .suvs {
 background-color: #006971;
-display: grid;
+border-radius:8px 0px 0px 8px;
+padding:48px;
 }
 
 .luxury {
-    background-color: #004140 ;
-    display: grid;
+    background-color: #004140;
+    border-radius:0px 8px 8px 0;              
+    padding: 48px;
 }
+
+.footer {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+.container {
+    margin:200px;
+    display: flex;
+}
+
