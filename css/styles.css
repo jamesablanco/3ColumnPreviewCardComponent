@@ -1,13 +1,16 @@
 body {
 background-color:  hsl(0, 0%, 95%);
-color: white;
+color: hsla(0, 0%, 100%, 0.75);
 font-size: 15px;
+align-content: center;
+margin: 100px;
 }
 
 
 h1 {
     font-family: 'Big Shoulders Display', cursive;
     padding: 48px;
+    margin-bottom: -2em;
 }
 
 p {
@@ -15,41 +18,89 @@ p {
     font-weight: 400;
     color: hsla(0, 0%, 100%, 0.75);
     padding: 48px;
+    margin-bottom: 2em;
+    line-height: 25px;
+
 }
 
 .icons {
     padding: 48px;
-}
+    margin-bottom: -4em;
+} 
 
 button {
-    
+Display: grid;
+text-align: center;
+background-color:hsl(0, 0%, 95%) ; 
+border:1px solid;
+border-radius: 48px;
+color:#000;
+font-family: 'Luxend Deca', sans-serif;
+font-size: 15px;
+font-weight: bold;
+mix-blend-mode:screen; 
+display:block;
+margin:48px;
+padding: 25px 80px 25px 12px;
+cursor: pointer;
+}
+
+button:hover {
+border: 1px solid;
+border-color:hsl(0, 0%, 95%);
+background-color: transparent;
+color:hsl(0, 0%, 95%)
 }
 .sedans {
-    background-color:#E28625 ;
+    background-color:hsl(31, 77%, 52%);
     border-radius:8px 0px 0px 8px;
     padding: 48px;
+    height: 500px;
+    width: 307px;
+    align-content: center;
 }
 
 .suvs {
-background-color: #006971;
+background-color: hsl(184, 100%, 22%);
 border-radius:8px 0px 0px 8px;
 padding:48px;
+height: 500px;
+width: 307px;
+align-content: center;
 }
 
 .luxury {
-    background-color: #004140;
+    background-color: hsl(179, 100%, 13%);
     border-radius:0px 8px 8px 0;              
     padding: 48px;
+    height: 500px;
+    width: 307px;
+    align-content: center;
 }
 
 .footer {
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkgray;
+    text-decoration: none;
+
 
 }
 
 .container {
-    margin:200px;
+    margin:100px;
+    padding: auto;
     display: flex;
+
 }
 
+a {
+    outline:none;
+    text-decoration: none;
+    color:darkgray
+}
+
+a:focus, a:hover, a:active {
+    border-bottom: 1px solid;
+    color:hsl(179, 100%, 13%)
+}
